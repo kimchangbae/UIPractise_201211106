@@ -77,10 +77,15 @@
         android:layout_height="wrap_content"
         android:text="개인정보 제공에 동의합니다." />
 
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kakaoTalk_Logo"
+        android:scaleType="centerCrop"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ok-OK"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false" />
 
 </LinearLayout>
