@@ -6,11 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="50dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="아이디" />
 
     <EditText
@@ -76,12 +78,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보 제공에 동의합니다." />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/kakao"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
 
-    <ImageView
-        android:layout_width="200dp"
-        android:layout_height="100dp"
-        android:src="@drawable/kakaoTalk_Logo"
-        android:scaleType="centerCrop"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
