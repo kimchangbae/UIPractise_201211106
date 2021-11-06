@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "UIPractise_201211106"
